@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    padding: 12px 0;
+    margin: 0 0 84px 0;
+}
+
+.top-wrp {
+    margin: 0 0 198px 0;
+}
+
+.top-content-title {
+    margin: 0 0 17px 0;
+}
+
+.top-content-txt {
+    margin: 0 0 37px 0;
+}
