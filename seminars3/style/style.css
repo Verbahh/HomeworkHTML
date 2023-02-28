@@ -3,19 +3,158 @@
     margin: 0;
 }
 
-.header {
-    padding: 12px 0;
-    margin: 0 0 84px 0;
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    font-style: normal;
+    color: #000000;
+    background-color: #FFFFFF;
 }
 
+a {
+    text-decoration: none;
+}
+
+.center {
+    max-width: 1393px;
+    width: 100%;
+    margin: 0 auto;
+    /* outline: 1px solid black; */
+}
+
+/* =============== HEADER =============== */
+
+.header {
+    padding: 12px 0;
+    max-width: 1170px;
+    margin: 0 auto 84px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {}
+
+.header-menu {}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.menu-list-item {}
+
+.menu-list-item a {
+    color: #000000;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.active a {
+    color: #F25822;
+}
+
+/* =============== END-HEADER =============== */
+
+/* =============== TOP-WRP =============== */
+
 .top-wrp {
-    margin: 0 0 198px 0;
+    margin: 0 auto 103px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+}
+
+.top-content {
+    max-width: 543px;
+    width: 100%;
+    text-align: left;
+
 }
 
 .top-content-title {
     margin: 0 0 17px 0;
+    font-size: 60px;
+    line-height: 70px;
+
 }
 
 .top-content-txt {
+    max-width: 466px;
+    width: 100%;
     margin: 0 0 37px 0;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    font-weight: 400;
 }
+
+.top-content-btn-wrp {
+    /* outline: 1px solid green; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 27px;
+}
+
+.top-content-btn {
+    font-size: 15px;
+    line-height: 18px;
+    display: block;
+    border: none;
+    max-width: 140px;
+    width: 100%;
+}
+
+.start-button {
+    color: #FFFFFF;
+    background-color: #F25822;
+    border-radius: 50px;
+    padding: 15px 35px;
+    box-sizing: border-box;
+}
+
+.watch-button {
+    color: #AAAAAA;
+    background-color: #FFFFFF;
+    max-width: 135px;
+    width: 100%;
+    padding: 5px 0;
+    box-sizing: border-box;
+
+}
+
+.top-img {
+    width: 610px;
+    height: 372px;
+}
+
+.top-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* =============== END TOP-WRP =============== */
+
+/* =============== TOP-LOGOS =============== */
+
+.top-logos {}
+
+.top-logos-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.top-logos-list-item {}
+
+/* =============== ENDTOP-LOGOS =============== */
