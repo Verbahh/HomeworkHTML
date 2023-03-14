@@ -163,7 +163,6 @@ a {
 /* =============== ADVANTAGES =============== */
 
 .advntages {
-    /* max-width: o auto 92px auto; */
     /* outline: 1px solid blue; */
     margin: 100px auto;
 }
@@ -320,18 +319,5 @@ a {
     padding: 15px 35px;
     
 }
-
-    /* color: #FFFFFF;
-    background-color: #F25822;
-    border-radius: 50px;
-    padding: 15px 35px;
-    box-sizing: border-box;
-
-
-    display: block;
-    border: none;
-    max-width: 150px;
-    width: 100%;
-    font-weight: 700; */
 
 /* =============== END ADVANTAGES-detail =============== */
