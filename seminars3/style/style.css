@@ -18,7 +18,7 @@ a {
 }
 
 .center {
-    max-width: 1393px;
+    max-width: 1170px;
     width: 100%;
     margin: 0 auto;
     /* outline: 1px solid black; */
@@ -110,6 +110,7 @@ a {
     border: none;
     max-width: 140px;
     width: 100%;
+    font-weight: 700;
 }
 
 .start-button {
@@ -157,4 +158,180 @@ a {
 
 .top-logos-list-item {}
 
-/* =============== ENDTOP-LOGOS =============== */
+/* =============== END TOP-LOGOS =============== */
+
+/* =============== ADVANTAGES =============== */
+
+.advntages {
+    /* max-width: o auto 92px auto; */
+    /* outline: 1px solid blue; */
+    margin: 100px auto;
+}
+
+.advantages-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 60px;
+}
+
+.advantages-item {
+    max-width: 310px;
+    width: 100%;
+    /* outline: 1px solid green; */
+    padding: 29px;
+    box-sizing: border-box;
+}
+.advantages-item__big {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    max-width: 370px;
+    width: 100%;
+}
+
+.advantages-item-photo {
+    width: 70px;
+    height: 70px;
+    /* outline: 1px solid red; */
+    background-image: url("../img/advantages-icon-1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 0 25px 0;
+    
+}
+.advantages-photo__2 {
+    background-image: url("../img/advantages-icon-2.svg");
+}
+.advantages-photo__3 {
+    background-image: url("../img/advantages-icon-3.svg");
+}
+.advantages-item-title {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 17px 0;
+}
+
+.advantages-item-txt {
+    font-size: 15px;
+    line-height: 22px;
+    color: #666666;
+    font-weight: 400;
+    margin: 0 0 25px 0;
+}
+
+.advantages-item-btn {
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    display: block;
+    border: none;
+
+}
+
+/* =============== END ADVANTAGES =============== */
+
+/* =============== ADVANTAGES-detail =============== */
+
+.advantages-detail {
+    background-color: #FAFAFA;
+    /* outline: 1px solid black; */
+    padding: 92px 0;
+}
+.advantages-detail-title {
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    margin: 0 auto 19px auto;
+
+}   
+.advantages-detail-txt {
+    line-height: 24px;
+    color: #666666;
+    text-align: center;
+    margin: auto auto 54px auto;
+    width: 682px;
+}
+.advntages-detail-list {
+    list-style: none;
+    padding: 30px;
+    /* outline: 1px solid red; */
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 370px);
+    justify-content: center;
+}
+
+.advntages-detail-item {
+    /* outline: 1px solid green; */
+    max-width: 370px;
+    width: 100%;
+    padding: 15px 30px 50px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.advntages-detail-item__center {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+.advntages-detail-item-photo {
+    /* outline: 1px solid blue; */
+    width: 370px;
+    height: 290px;
+    background-image: url("../img/advantages-detail-photo-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+.advntages-detail-photo__2 {
+    background-image: url("../img/advantages-detail-photo-2.png");
+}
+.advntages-detail-photo__3 {
+    background-image: url("../img/advantages-detail-photo-3.png");
+}
+.advantages-detail-item-title {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 0 22px 0;
+}
+.advantages-detail-item-txt {
+    font-size: 15px;
+    line-height: 22px;
+    color: #AAAAAA;
+    text-align: center;
+    margin: 0 0 39px 0;
+
+}
+.advantages-detail-item-btn {
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    border: none;
+    background: #F25822;
+    border-radius: 50px;
+    max-width: 150px;
+    width: 100%;
+    font-weight: 700;
+    padding: 15px 35px;
+    
+}
+
+    /* color: #FFFFFF;
+    background-color: #F25822;
+    border-radius: 50px;
+    padding: 15px 35px;
+    box-sizing: border-box;
+
+
+    display: block;
+    border: none;
+    max-width: 150px;
+    width: 100%;
+    font-weight: 700; */
+
+/* =============== END ADVANTAGES-detail =============== */
