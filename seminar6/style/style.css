@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    font-style: normal;
+    color: #222222;
+    background-color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+.center {
+    max-width: 1140px;
+    width: 100%;
+    outline: 1px solid black;
+}
+
+/* ============= header =========== */
+
+
+
+/* ============= END header =========== */
+
+/* ============= content =========== */
+
+.banner-photo {
+    width: 800px;
+    height: 764px;
+    background-image: url('../img/banner-photo.png');
+}
+.categories-item-photo {
+    width: 360px;
+    height: 260px;
+}
+.photo__women {
+    background-image: url('../img/categories-item-photo-women.png');
+}
+.photo__men {
+    background-image: url('../img/categories-item-photo-men.png');
+}
+.photo__kids {
+    background-image: url('../img/categories-item-photo-kids.png');
+}
+.photo__accesories {
+    background-image: url('../img/categories-item-photo-accesories.png');
+    width: 1140px;
+    height: 180px;
+}
+
+/* ============= END content =========== */
