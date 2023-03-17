@@ -22,98 +22,42 @@ a {
 }
 
 /* ============= header =========== */
-
-
 .header {
-    padding: 20px 0;
-    display: flex;
-    align-items: center;
     background-color: #222222;
-
+    padding: 18px 0;
 }
-.page-header-wrp-btn {
+.header-wrp {
     display: flex;
-    align-items: center;
-    gap: 41px;
-    margin: 0 0 0 231px;
 }
-.page-header-logo {
+/*логотип*/
+.header-logo {
 
 }
-/* строка поиска */
-.page-header-wrp-search {
-    
-}
-.search-icon-form {
-    width: 26px;
-    height: 26px;
-    /* margin: 0 0 0 30%; */
-    position: relative;
-}
-.search-icon-form__input {
-    /* width: 20px;
-    min-height: 20px;
-    padding: 5px; */
-    outline: none;
-    box-sizing: border-box;
-    background-color: transparent;
-    border: none;
-    /* position: absolute;
-    top: 40px;
-    left: -119px; */
-    color: #fff;
-    font-size: 16px;
-    
-    text-transform: capitalize;
-}
-.search-icon-form__input:focus {
-    width: 180px;
-    transition: width 1s ease;
-    border: 2px solid #fff;
-}
+/*строка поиска*/
+.header-search-wrp {
 
-.search-icon-form__input:focus ~ .search-icon-form__label>.search-icon-form__svg {
-    fill: #E8E8E8;
 }
-.search-icon-form__label {
-    display: block;
-    width: 100%;
-    height: 100%;
+.page-header-search-form {
+
 }
-.search-icon-form__label:hover .search-icon-form__svg {
-    fill: #F16D7F;
+.page-header-search-btn {
+
 }
-.search-icon-form__label:active .search-icon-form__svg {
-    fill: #E8E8E8;
+/*иконки*/
+.header-icon-btn-wrp {
+
 }
-.search-icon-form__svg {
-    width: 100%;
-    height: 100%;
-    fill: #E8E8E8;
-}
-/*иконки справа*/
-.icon-btn {
+.header-icon-btn-list {
+    list-style: none;
     display: flex;
-    align-items: center;
     gap: 33px;
-    margin: 0 240px 0;
 }
-.menu-btn {
-    width: 32px;
-    height: 23px;
-}
-.acount-btn {
-    width: 29px;
-    height: 29px;
-}
-.basket-btn {
-    width: 32px;
-    height: 29px;
-}
-.page-header-menu {
+.header-icon-btn-item {
 
 }
+.icon-link {
 
+}
 /* ============= END header =========== */
 
 /* ============= content =========== */
@@ -123,34 +67,53 @@ a {
 }
 
 /*баннер на главной странице*/
+.banner-wrp {
+    background-color: #F1E4E6;
+    margin: 0 0 65px 0;
+}
 .banner {
     /* outline: 1px solid red; */
-    background-color: #F1E4E6;
+
     display: flex;
     align-items: center;
+    gap: 91px;
 }
 .banner-photo {
     width: 800px;
     height: 764px;
-    margin: 0 63px 0 0;
+    /* margin: 0 63px 0 0; */
     background-image: url('../img/banner-photo.png');
     background-position: center;
 }
 .banner-txt {
-    border-left: 12px solid #F16D7F;
-    padding-left: 16px;
+
 }
 .banner-title {
+    max-width: 377px;
+    width: 100%;
     font-weight: 900;
     font-size: 48px;
     line-height: 58px;
+    text-transform: uppercase;
+    position: relative;
 }
-.banner-subbtitle {
+.banner-title::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 92px;
+    background-color: #F16D7F;
+    position: absolute;
+    top: -1px;
+    left: -28px;
+}
+.banner-subtitle {
+    display: block;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
 }
-.banner-subbtitle-color {
+.banner-subtitle-color {
     color: #F16D7F;
 }
 
