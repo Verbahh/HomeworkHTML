@@ -845,7 +845,7 @@ a {
         gap: 40px;
         flex-direction: column-reverse;
         height: 143px;
-        padding: 0 27,5px 0 27,5px;
+        padding: 0 27,5px;
     }
     .footer-featured-social-copirait-text {
         width: 251px;
