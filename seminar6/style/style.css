@@ -450,7 +450,6 @@ a {
     display: flex;
     gap: 30px;
     padding: 103px 0px 102px 0;
-    margin: 0 230px;
 }
 
 .footer-featured-item {
@@ -484,11 +483,16 @@ a {
 .footer-contact {
     background-image: url('../img/backgroud-person-white.png'), url('../img/backgroud-person.png');
     background-repeat: no-repeat;
-    display: flex;
+    background-size: cover;
     height: 448px;
     padding: 0 230px;
     gap: 223px;
 
+}
+
+.footer-contact-wrp {
+    display: flex;
+    gap: 223px;
 }
 
 .footer-contact-person {
@@ -700,34 +704,41 @@ a {
         margin: 48px auto 65px auto;
 
     }
+
     .footer-featured-list {
         gap: 48px;
         padding: 48px 0px 64px 0;
         margin: 0 204px;
         flex-direction: column;
     }
+
     .footer-featured-text {
         width: 360px;
     }
-    .footer-contact { 
+
+    .footer-contact {
         gap: 60px;
         flex-direction: column;
         min-height: 693px;
         align-items: center;
         background-size: cover;
     }
+
     .footer-contact-person {
         margin-top: 64px;
 
     }
+
     .footer-contact-subscribe {
         margin-top: 0;
 
     }
+
     .footer-contact-subscribe-form {
-        margin-top: 0px;    
+        margin-top: 0px;
         margin: 27px 0 140px 0;
     }
+
     .footer-featured-social {
         padding: 0 34px 0 32px;
         gap: 305px;
@@ -814,39 +825,48 @@ a {
         padding: 48px 0px 81px 0;
         margin: 0 14px;
     }
+
     .footer-featured-image {
         margin-bottom: 18px;
     }
+
     .footer-featured-title {
         margin-bottom: 14px;
     }
+
     .footer-featured-text {
         width: 320px;
     }
+
     .footer-contact {
         padding: 0 14px;
     }
-    
+
     .footer-contact-person-text {
         font-size: 20px;
         line-height: 24px;
     }
+
     .footer-contact-subscribe-title {
         line-height: 37px;
     }
+
     .footer-contact-subscribe-text {
         font-size: 14px;
         line-height: 21px;
     }
+
     .footer-contact-subscribe-email-input {
         width: auto;
     }
+
     .footer-featured-social {
         gap: 40px;
         flex-direction: column-reverse;
         height: 143px;
-        padding: 0 27,5px;
+        padding: 0 27, 5px;
     }
+
     .footer-featured-social-copirait-text {
         width: 251px;
     }
